@@ -1,2 +1,5 @@
-You can find the latest distribution of GNU cfs-el at
+The GNU cfs-el web homepage is at
 @uref{http://www.gnu.org/software/cfs-el}.
+
+You can find the latest distribution of GNU cfs-el at
+@uref{http://ftp.gnu.org/gnu/} or at any of its mirrors.

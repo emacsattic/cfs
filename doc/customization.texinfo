@@ -6,5 +6,5 @@ to access to the cfs customization group.
 There are different options, but consider that there are reasonable
 defaults.
 
-Please read the CFS man pages (@command{man cattach}) when the
-explanation of an option is not enought.
+Please read the CFS man pages (@command{man cattach} for example) when
+the explanation of an option is not enought.

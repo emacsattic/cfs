@@ -1,7 +1,7 @@
 # Process this file with autoconf to produce a configure script.
 
-AC_INIT(cfs-el, 0.4.0, bug-cfs-el@gnu.org)
-AM_INIT_AUTOMAKE(cfs-el, 0.4.0)
+AC_INIT(cfs-el, 0.5.0, bug-cfs-el@gnu.org)
+AM_INIT_AUTOMAKE(cfs-el, 0.5.0)
 
 AC_PATH_PROG([CATTACH], [cattach], [not_found], [$PATH])
 if test $CATTACH = not_found ; then
@@ -20,5 +20,5 @@ fi
 
 AM_PATH_LISPDIR
 
-AC_CONFIG_FILES([Makefile src/Makefile doc/version.texinfo])
+AC_CONFIG_FILES([Makefile src/Makefile doc/Makefile doc/version.texinfo])
 AC_OUTPUT

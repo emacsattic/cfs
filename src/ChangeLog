@@ -1,3 +1,15 @@
+2003-10-13  Marco Parrone  <marc0@autistici.org>
+
+	* cfs.el (cfs-detach): Removed call to cfs-list function.
+	(cfs-list): now the ls program is used (using the shell-command
+	function) instead of the list-directory function.
+
+2003-10-09  Marco Parrone  <marc0@autistici.org>
+
+	* cfs.el (cfs-make): fixed (replaced call to directory-file-name
+	with call to expand-file-name when reading the "New encrypted
+	directory" filename).
+
 2003-09-25  Marco Parrone  <marc0@autistici.org>
 
 	* cfs.el (cfs-version): Now use `message' to print the result if

@@ -30,15 +30,7 @@
 ;; GNU cfs-el is a frontend for using CFS (Criptographic File System)
 ;; from Emacs.
 ;;
-;; Read the file NEWS (avaiable in the installation package) to see
-;; what's different from the previous version. For installation
-;; informations, read the file INSTALL.
-;;
-;; Use the Emacs documentation functions to read the cfs-el documentation
-;; (for example use `M-x apropos-command RET cfs RET').
-;;
-;; Use the Emacs customization functions to customize cfs-el
-;; (for example use `M-x customize-group RET cfs RET').
+;; For usage and other informations, read the info manual.
 ;;
 ;; Please send bug-reports and suggestions or comments to:
 ;;
@@ -149,7 +141,9 @@ the cryptographic filesystem)."
 (defun cfs-list ()
   "List attached directories."
   (interactive)
-  (list-directory cfs-currently-attached-cleartext-instances-directory))
+  (shell-command 
+   (concat "ls "
+	   cfs-currently-attached-cleartext-instances-directory)))
 
 ;;;###autoload
 (defun cfs-check-if-mounted ()
@@ -225,7 +219,6 @@ the cryptographic filesystem)."
 (defun cfs-detach ()
   "Detach an encrypted directory."
   (interactive)
-  (cfs-list)
   (shell-command (concat cfs-cdetach-command " "
 			 (shell-quote-argument
 			  (file-name-nondirectory
@@ -256,8 +249,8 @@ the cryptographic filesystem)."
 	    ("safer-sk128" . "-s")))
 	 (filename
 	  (shell-quote-argument
-		   (directory-file-name
-		    (read-file-name "New encrypted directory: "))))
+	   (expand-file-name
+	    (read-file-name "New encrypted directory: "))))
 	 (half-command
 	  (concat "| " cfs-cmkdir-command " -- "
 		  (if cfs-make-ask-for-cipher
@@ -290,7 +283,7 @@ the cryptographic filesystem)."
   "Return a string describing the version of cfs-el."
   (interactive)
   (let ((version
-	 "GNU cfs-el version 0.4.0 (beta) of the 4th of September 2003"))
+	 "GNU cfs-el version 0.5.0 (stable) of the 13th of October 2003"))
     (if (interactive-p)
 	(message "%s" version)
       version)))

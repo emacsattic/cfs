@@ -22,17 +22,14 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-GNU cfs-el is a frontend for using CFS (Criptographic File System) from Emacs.
+GNU cfs-el is a frontend for using CFS (Criptographic File System)
+from Emacs.
 
 Read the file NEWS to see what's different from the previous version.
 
 For installation informations, read the file INSTALL.
 
-Use the Emacs documentation functions to read the cfs-el documentation
-(for example use `M-x apropos-command RET cfs RET').
-
-Use the Emacs customization functions to customize cfs-el
-(for example use `M-x customize-group RET cfs RET').
+For usage and other informations, read the info manual.
 
 Please send bug-reports and suggestions or comments to:
 

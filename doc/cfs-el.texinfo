@@ -58,7 +58,7 @@ Texts.  A copy of the license is included in the section entitled
 * Distribution::                How to get the latest distribution.
 * Loading::                     Preliminary things.
 * Customization::               How to customize it to your preferences.
-* Usage::                       Usage details.
+* Usage::                       Usage informations.
 * Authors::                     The authors.
 * Thanks::                      Thanks.
 * Concept Index::               An item for each concept.
@@ -140,7 +140,7 @@ Copying This Manual
 @node Usage, Authors, Customization, Top
 @chapter Usage
 @cindex Usage
-@cindex Usage
+@cindex Usage informations
 
 @include usage.texinfo
 

@@ -1,6 +1,6 @@
 @itemize @bullet
 
-@item Changes in GNU cfs-el version 0.5.0 (stable) of the Xth of September 2003
+@item Changes in GNU cfs-el version 0.5.0 (stable) of the 13th of October 2003
 @itemize @bullet
 @item Added info manual.
 @item Fixes.
