@@ -1,0 +1,35 @@
+Here is a list of the functions defined by cfs-el.
+
+Call them using @command{M-x FUNCTION RET}.
+
+@defun cfs-list
+List attached directories.
+@end defun
+
+@defun cfs-check-if-mounted
+Check if the CFS is mounted.
+@end defun
+
+@defun cfs-mount
+Mount the CFS (restart cfsd, the CFS daemon).
+@end defun
+
+@defun cfs-attach
+Attach an encrypted directory.
+@end defun
+
+@defun cfs-detach
+Detach an encrypted directory.
+@end defun
+
+@defun cfs-detach-all
+Detach all the encrypted directories.
+@end defun
+
+@defun cfs-make
+Make an encrypted directory.
+@end defun
+
+@defun cfs-version
+Return a string describing the version of cfs-el.
+@end defun
