@@ -1,0 +1,54 @@
+2003-09-04  Marco Parrone  <marc0@autistici.org>
+
+	* cfs.el (cfs-make): Added support for selecting ciphers and
+	options and for using the configured defaults too.
+
+2003-08-19  Marco Parrone  <marc0@autistici.org>
+
+	* cfs.el (cfs-list, cfs-check-if-mounted, cfs-mount, cfs-attach)
+	(cfs-detach, cfs-detach-all, cfs-version): 
+	Added magic autoload comments.
+	(cfs-cattach-command, cfs-cdetach-command, cfs-cmkdir-command):
+	New custom variables.
+	(cfs-attach, cfs-detach, cfs-detach-all): Use the above vars.
+	(cfs-version): New function.
+	(cfs-make): New function.
+
+2003-04-27  Marco Parrone  <marc0@autistici.org>
+
+	* cfs.el (cfs-detach-all): New function.
+
+2003-04-20  Marco Parrone  <marc0@autistici.org>
+
+	* cfs.el: Doc fixes.
+	Now provides 'cfs.
+
+	(cfs-mount): Now `shell-quote-argument' is used on the user input.
+	(cfs-attach): Likewise.
+	(cfs-detach): Likewise.
+
+	(cfs-attach): Now handles the `name' (cleartext directory name)
+	`cattach' argument.
+
+	(cfs): New custom group.
+
+	(cfs-attach-lower-security-mode, cfs-attach-timeout)
+	(cfs-attach-inactivity-timeout): New custom variables.
+	(cfs-attach): Handles the above variables.
+
+	(cfs-mount-command, cfs-mount-use-sudo): New custom variables.
+	(cfs-mount): Handles the above variables.
+
+	(cfs-list): New function.
+	(cfs-detach): Now uses `cfs-list'.
+
+	(cfs-attach-ask-for-lower-security-mode)
+	(cfs-attach-ask-for-timeout)
+	(cfs-attach-ask-for-inactivity-timeout): New custom variables.
+	(cfs-attach): Handles the above variables.
+
+
+Copyright (C)  2003  Marco Parrone
+
+Copying and distribution of this file, with or without modification,
+are permitted provided the copyright notice and this notice are preserved.

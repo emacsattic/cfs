@@ -1,0 +1,6 @@
+Subject: Contributions to GNU cfs-el
+
+2003-04-19  Kai Groﬂjohann
+
+        * Suggested to use `shell-quote-argument' for escaping
+          special chars in arguments to pass to the shell.

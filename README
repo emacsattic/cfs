@@ -1,0 +1,39 @@
+Subject: General informations about GNU cfs-el
+
+Copyright (C)  2003  Marco Parrone
+
+This file is part of GNU cfs-el.
+
+GNU cfs-el is not part of GNU Emacs.
+
+GNU cfs-el is part of the GNU project, released under the aegis of GNU.
+
+GNU cfs-el is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+GNU cfs-el is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+GNU cfs-el is a frontend for using CFS (Criptographic File System) from Emacs.
+
+Read the file NEWS to see what's different from the previous version.
+
+For installation informations, read the file INSTALL.
+
+Use the Emacs documentation functions to read the cfs-el documentation
+(for example use `M-x apropos-command RET cfs RET').
+
+Use the Emacs customization functions to customize cfs-el
+(for example use `M-x customize-group RET cfs RET').
+
+Please send bug-reports and suggestions or comments to:
+
+  bug-cfs-el@gnu.org

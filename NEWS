@@ -1,0 +1,59 @@
+Subject: History of user-visible changes for GNU cfs-el
+
+Copyright (C)  2003  Marco Parrone
+See the end for copying conditions.
+
+
+* Changes in GNU cfs-el version 0.4.0 (beta) of the 4th of September 2003
+
+** Now cfs-el is a GNU program.
+
+** Added `cfs-make' function (frontend to `cmkdir', to make an
+   encrypted directory).
+
+
+* Changes in cfs-el version 0.3.1 (alpha) of the 28th of April 2003
+
+** Minor fixes.
+
+
+* Changes in cfs-el version 0.3.0 (alpha) of the 27th of April 2003
+
+** Added `cfs-detach-all' function.
+
+
+* Changes in cfs-el version 0.2.0 (alpha) of the 20th of April 2003
+
+** Now it isn't needed to escape special characters in the user
+   input.
+
+** Now it's possible to choose the name of the cleartext directory.
+
+** Now supports all the `cattach' options.
+
+** Now the `cfs-mount' function is more configurable.
+
+** Added `cfs-list', to list the attached directories.
+
+** Added selecting if being prompted for setting options.
+
+
+* Changes in cfs-el version 0.1.0 (alpha) of the 19th of April 2003
+
+** First release.
+
+
+----------------------------------------------------------------------
+Copyright information:
+
+Copyright (C)  2003  Marco Parrone
+
+   Permission is granted to anyone to make or distribute verbatim
+   copies of this document as received, in any medium, provided that
+   the copyright notice and this permission notice are preserved, thus
+   giving the recipient permission to redistribute in turn.
+
+   Permission is granted to distribute modified versions of this
+   document, or of portions of it, under the above conditions,
+   provided also that they carry prominent notices stating who last
+   changed them.

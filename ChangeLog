@@ -1,0 +1,13 @@
+2003-08-19  Marco Parrone  <marc0@autistici.org>
+
+	* configure.ac: Updated version (now 0.4.0).
+	Updated bug reports address.
+	Added check for `cattach'.
+	Added check for `cdetach'.
+	Added check for `cmkdir'.
+
+
+Copyright (C)  2003  Marco Parrone
+
+Copying and distribution of this file, with or without modification,
+are permitted provided the copyright notice and this notice are preserved.
