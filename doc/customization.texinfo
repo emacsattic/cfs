@@ -1,0 +1,10 @@
+cfs-el uses the Emacs customization facilities for setting preferences.
+
+So you can use the command @command{M-x customize-group RET cfs RET}
+to access to the cfs customization group.
+
+There are different options, but consider that there are reasonable
+defaults.
+
+Please read the CFS man pages (@command{man cattach}) when the
+explanation of an option is not enought.

@@ -1,0 +1,8 @@
+Before using cfs-el, you have to load it into your current Emacs
+image.
+
+For example do: @code{M-x load-library RET cfs RET}.
+
+For making Emacs loading automatically it at each startup, put in your
+@file{~/.emacs} file the following instruction: @code{(load
+"cfs")}.
