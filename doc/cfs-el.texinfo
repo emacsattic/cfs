@@ -7,8 +7,8 @@
 @comment %**end of header
 @copying
 
-GNU cfs-el is a frontend for using CFS (Criptographic File System)
-from Emacs.
+GNU cfs-el is a frontend for using CFS (Criptographic File System -
+wrote by Matt Blaze) from Emacs.
 
 This is Edition @value{EDITION}, @value{UPDATED},
 of @cite{The GNU cfs-el Manual},
