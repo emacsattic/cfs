@@ -1,5 +1,5 @@
 The GNU cfs-el web homepage is at
-@uref{http://www.gnu.org/software/cfs-el}.
+@uref{http://www.gnu.org/software/cfs-el/cfs-el.html}.
 
 You can find the latest distribution of GNU cfs-el at
-@uref{http://ftp.gnu.org/gnu/} or at any of its mirrors.
+@uref{ftp://ftp.gnu.org/gnu/} or at any of its mirrors.
