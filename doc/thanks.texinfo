@@ -1,0 +1,3 @@
+Kai Groﬂjohann (2003-04-19): Suggested to use
+@command{shell-quote-argument} for escaping special chars in arguments
+to pass to the shell.

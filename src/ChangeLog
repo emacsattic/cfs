@@ -1,3 +1,14 @@
+2003-09-25  Marco Parrone  <marc0@autistici.org>
+
+	* cfs.el (cfs-version): Now use `message' to print the result if
+	the function is called interactively (like emacs-version does).
+	(cfs-currently-attached-cleartext-instances-directory): Added
+	custom variable.
+	(cfs-list): Now uses
+	`cfs-currently-attached-cleartext-instances-directory'.
+	(cfs-detach): Likewise.
+	(cfs-detach-all): Likewise.
+
 2003-09-04  Marco Parrone  <marc0@autistici.org>
 
 	* cfs.el (cfs-make): Added support for selecting ciphers and
@@ -48,7 +59,7 @@
 	(cfs-attach): Handles the above variables.
 
 
-Copyright (C)  2003  Marco Parrone
+Copyright (C)  2003  Free Software Foundation, Inc.
 
 Copying and distribution of this file, with or without modification,
 are permitted provided the copyright notice and this notice are preserved.

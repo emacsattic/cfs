@@ -1,6 +1,6 @@
 ;;; cfs.el  ---  A frontend to CFS.
 
-;; Copyright (C)  2003  Marco Parrone
+;; Copyright (C)  2003  Free Software Foundation, Inc.
 
 ;; Author: Marco Parrone
 ;; Keywords: CFS crypto filesystem external frontend
@@ -140,11 +140,16 @@ the cryptographic filesystem)."
   :type 'boolean
   :group 'cfs)
 
+(defcustom cfs-currently-attached-cleartext-instances-directory "/crypt"
+  "*Directory containing the currently attached cleartext instances."
+  :type 'string
+  :group 'cfs)
+
 ;;;###autoload
 (defun cfs-list ()
   "List attached directories."
   (interactive)
-  (list-directory "/crypt"))
+  (list-directory cfs-currently-attached-cleartext-instances-directory))
 
 ;;;###autoload
 (defun cfs-check-if-mounted ()
@@ -226,14 +231,16 @@ the cryptographic filesystem)."
 			  (file-name-nondirectory
 			   (directory-file-name
 			    (read-file-name "Encrypted directory: "
-					    "/crypt/")))))))
+					    cfs-currently-attached-cleartext-instances-directory)))))))
 
 ;;;###autoload
 (defun cfs-detach-all ()
   "Detach all the encrypted directories."
   (interactive)
   (shell-command
-   (concat "for x in `ls /crypt` ; do " 
+   (concat "for x in `ls "
+           cfs-currently-attached-cleartext-instances-directory
+	   "` ; do " 
 	   cfs-cdetach-command
 	   " $x ; done")))
 
@@ -282,7 +289,11 @@ the cryptographic filesystem)."
 (defun cfs-version ()
   "Return a string describing the version of cfs-el."
   (interactive)
-  "GNU cfs-el version 0.4.0 (beta) of the 4th of September 2003")
+  (let ((version
+	 "GNU cfs-el version 0.4.0 (beta) of the 4th of September 2003"))
+    (if (interactive-p)
+	(message "%s" version)
+      version)))
 
 (provide 'cfs)
 

@@ -1,0 +1,40 @@
+@itemize @bullet
+
+@item Changes in GNU cfs-el version 0.5.0 (stable) of the Xth of September 2003
+@itemize @bullet
+@item Added info manual.
+@item Fixes.
+@end itemize
+
+@item Changes in GNU cfs-el version 0.4.0 (beta) of the 4th of September 2003
+@itemize @bullet
+@item Now cfs-el is a GNU program.
+@item Added `cfs-make' function (frontend to `cmkdir', to make an encrypted directory).
+@end itemize
+
+@item Changes in cfs-el version 0.3.1 (alpha) of the 28th of April 2003
+@itemize @bullet
+@item Minor fixes.
+@end itemize
+
+@item Changes in cfs-el version 0.3.0 (alpha) of the 27th of April 2003
+@itemize @bullet
+@item Added `cfs-detach-all' function.
+@end itemize
+
+@item Changes in cfs-el version 0.2.0 (alpha) of the 20th of April 2003
+@itemize @bullet
+@item Now it isn't needed to escape special characters in the user input.
+@item Now it's possible to choose the name of the cleartext directory.
+@item Now supports all the `cattach' options.
+@item Now the `cfs-mount' function is more configurable.
+@item Added `cfs-list', to list the attached directories.
+@item Added selecting if being prompted for setting options.
+@end itemize
+
+@item Changes in cfs-el version 0.1.0 (alpha) of the 19th of April 2003
+@itemize @bullet
+@item First release.
+@end itemize
+
+@end itemize

@@ -1,14 +1,6 @@
 2003-09-25  Marco Parrone  <marc0@autistici.org>
 
-	* Makefile.am (SUBDIRS): Added doc.
-
-2003-08-19  Marco Parrone  <marc0@autistici.org>
-
-	* configure.ac: Updated version (now 0.4.0).
-	Updated bug reports address.
-	Added check for `cattach'.
-	Added check for `cdetach'.
-	Added check for `cmkdir'.
+	* doc/Makefile.am: Added.
 
 
 Copyright (C)  2003  Free Software Foundation, Inc.

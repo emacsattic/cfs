@@ -1,0 +1,9 @@
+GNU cfs-el is not part of GNU Emacs.
+
+GNU cfs-el is part of the GNU project, released under the aegis of GNU.
+
+GNU cfs-el is a frontend for using CFS (Criptographic File System)
+from Emacs.
+
+Please send bug-reports and suggestions or comments to:
+@email{bug-cfs-el@@gnu.org}

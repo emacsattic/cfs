@@ -1,0 +1,2 @@
+You can find the latest distribution of GNU cfs-el at
+@uref{http://www.gnu.org/software/cfs-el}.

@@ -1,0 +1,167 @@
+\input texinfo    @c -*-texinfo-*-
+@comment %**start of header
+@setfilename cfs-el.info
+@include version.texinfo
+@settitle The GNU cfs-el @value{VERSION} Manual
+@syncodeindex pg cp
+@comment %**end of header
+@copying
+
+GNU cfs-el is a frontend for using CFS (Criptographic File System)
+from Emacs.
+
+This is Edition @value{EDITION}, @value{UPDATED},
+of @cite{The GNU cfs-el Manual},
+for GNU cfs-el version @value{VERSION}.
+
+Copyright @copyright{} 2002,2003 Free Software Foundation, Inc.
+     
+@quotation
+Permission is granted to copy, distribute and/or modify this document
+under the terms of the GNU Free Documentation License, Version 1.1 or
+any later version published by the Free Software Foundation; with no
+Invariant Sections, with no Front-Cover Texts and with no Back-Cover
+Texts.  A copy of the license is included in the section entitled
+``GNU Free Documentation License.''
+
+@end quotation
+@end copying
+
+@dircategory Emacs
+@direntry
+* cfs-el:(cfs-el).     A frontend to CFS (Criptographic File System).
+@end direntry
+
+@titlepage
+@title The GNU cfs-el Manual
+@subtitle for version @value{VERSION}, @value{UPDATED}
+@author Marco Parrone (@email{marc0@@autistici.org})
+@page
+@vskip 0pt plus 1filll
+@insertcopying
+@end titlepage
+
+@contents
+
+@ifnottex
+@node Top, Introduction, (dir), (dir)
+@top GNU cfs-el
+
+@insertcopying
+@end ifnottex
+
+@menu
+* Introduction::                Ganeral informations.
+* News::                        User-visible changes from the past versions.
+* Copying::                     Copying conditions and NON-warranty.
+* Copying This Manual::         Copying This Manual.
+* Distribution::                How to get the latest distribution.
+* Installation::                How to install.
+* Configuration::               How to configure.
+* Usage::                       Usage details.
+* Authors::                     The authors.
+* Thanks::                      Thanks.
+* Concept Index::               An item for each concept.
+
+@detailmenu
+ --- The Detailed Node Listing ---
+
+Copying This Manual
+
+* GNU Free Documentation License::  License for copying this manual.
+
+@end detailmenu
+@end menu
+
+@node Introduction, News, Top, Top
+@chapter Introduction
+@cindex Introduction
+@cindex General informations
+
+@include introduction.texinfo
+
+
+@node News, Copying, Introduction, Top
+@chapter News
+@cindex News
+@cindex Changes
+@cindex User-visible changes
+
+@include news.texinfo
+
+
+@node Copying, Copying This Manual, News, Top
+@chapter Copying
+@cindex Copying
+@cindex License
+@cindex GNU General Public License
+@cindex GNU GPL
+
+@include gpl.texinfo
+
+
+@node Copying This Manual, Distribution, Copying, Top
+@appendix Copying This Manual
+@cindex Copying this manual
+@cindex License
+
+@menu
+* GNU Free Documentation License::  License for copying this manual.
+@end menu
+
+@include fdl.texinfo
+
+
+@node Distribution, Installation, Copying This Manual, Top
+@chapter Distribution
+@cindex Distribution
+@cindex Latest distribution
+@cindex How to get
+
+@include distribution.texinfo
+
+
+@node Installation, Configuration, Distribution, Top
+@chapter Installation
+@cindex Installation
+@cindex How to install
+
+@include installation.texinfo
+
+
+@node Configuration, Usage, Installation, Top
+@chapter Configuration
+@cindex Configuration
+@cindex How to configure
+
+@include configuration.texinfo
+
+
+@node Usage, Authors, Configuration, Top
+@chapter Usage
+@cindex Usage
+@cindex Usage
+
+@include usage.texinfo
+
+
+@node Authors, Thanks, Usage, Top
+@chapter Authors
+@cindex Authors
+
+@include authors.texinfo
+
+
+@node Thanks, Concept Index, Authors, Top
+@chapter Thanks
+
+@include thanks.texinfo
+
+
+@node Concept Index,  , Thanks, Top
+@unnumbered Concept Index
+
+@printindex cp
+
+
+@bye
