@@ -56,8 +56,8 @@ Texts.  A copy of the license is included in the section entitled
 * Copying::                     Copying conditions and NON-warranty.
 * Copying This Manual::         Copying This Manual.
 * Distribution::                How to get the latest distribution.
-* Installation::                How to install.
-* Configuration::               How to configure.
+* Loading::                     Preliminary things.
+* Customization::               How to customize it to your preferences.
 * Usage::                       Usage details.
 * Authors::                     The authors.
 * Thanks::                      Thanks.
@@ -112,7 +112,7 @@ Copying This Manual
 @include fdl.texinfo
 
 
-@node Distribution, Installation, Copying This Manual, Top
+@node Distribution, Loading, Copying This Manual, Top
 @chapter Distribution
 @cindex Distribution
 @cindex Latest distribution
@@ -121,23 +121,23 @@ Copying This Manual
 @include distribution.texinfo
 
 
-@node Installation, Configuration, Distribution, Top
-@chapter Installation
-@cindex Installation
-@cindex How to install
+@node Loading, Customization, Distribution, Top
+@chapter Loading
+@cindex Loading
+@cindex Preliminary things
 
-@include installation.texinfo
+@include loading.texinfo
 
 
-@node Configuration, Usage, Installation, Top
-@chapter Configuration
-@cindex Configuration
+@node Customization, Usage, Loading, Top
+@chapter Customization
+@cindex Customization
 @cindex How to configure
 
-@include configuration.texinfo
+@include customization.texinfo
 
 
-@node Usage, Authors, Configuration, Top
+@node Usage, Authors, Customization, Top
 @chapter Usage
 @cindex Usage
 @cindex Usage

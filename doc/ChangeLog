@@ -1,3 +1,8 @@
+2003-10-01  Marco Parrone  <marc0@autistici.org>
+
+	* Makefile.am (cfs_el_TEXINFOS): Replaced configuration.texinfo
+	with customization.texinfo. Added loading.texinfo.
+
 2003-09-25  Marco Parrone  <marc0@autistici.org>
 
 	* doc/Makefile.am: Added.
